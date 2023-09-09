@@ -33,9 +33,13 @@ header {
     flex: 1;
 }
 
+/* Custom CSS for header text */
 .header-text {
-    text-align: top;
+    font-size: 28px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold if desired */
+    margin-bottom: 0; /* Remove any default margin */
 }
+
 
 .header-nav {
     text-align: right;
