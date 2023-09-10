@@ -120,3 +120,17 @@ a:hover {
     color: #ff5722; /* New link color on hover */
     font-size: 18px; /* Increased font size on hover */
 }
+ #reservations {
+            background-image: url('../images/bookings.jpg'); /* Replace 'images/background.jpg' with the path to your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff; /* Text color on the background image */
+            padding: 50px 0;
+        }
+
+        /* Additional styling for the form on the background image */
+        #reservations form {
+            background-color: rgba(0, 0, 0, 0.7); /* Background color for the form */
+            padding: 20px;
+            border-radius: 10px;
+        }
