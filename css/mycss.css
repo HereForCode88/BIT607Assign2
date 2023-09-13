@@ -15,9 +15,11 @@ body {
 
 /* CSS for the header */
 header {
-    background-color: #2385e7;
+    background-size:cover;
+    background-image: url('../images/header.jpg'); 
+    background-position-y: bottom;
     padding: 20px;
-    display: flex; /* Add this to create a flex container */
+    display: flex; /* create a flex container */
     align-items: center; /* Center vertically */
     justify-content: space-between;
 }
