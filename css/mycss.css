@@ -136,3 +136,18 @@ a:hover {
             padding: 20px;
             border-radius: 10px;
         }
+
+        /* Additional styling for larger screens */
+@media (min-width: 768px) {
+    .restaurant-description .row {
+        margin-top: 20px;
+    }
+
+    .restaurant-description .col-md-6 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
