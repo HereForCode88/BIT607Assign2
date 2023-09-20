@@ -1,5 +1,7 @@
  /* Custom CSS for responsive layout */
 body {
+    background-color: #343a40;
+    color: #fff;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -50,13 +52,13 @@ header {
 }
 
 .header-img {
-    flex: 20%; /* Set the image to take up 20% of the width */
+    flex: 20%; /*  20% of the width */
 }
 
 /* Default logo size */
 .logo {
-    max-width: 100%; /* Make sure the logo doesn't exceed its container */
-    height: auto; /* Allow the image to scale proportionally */
+    max-width: 100%; /* Make sure the logo isnt bigger than container */
+    height: auto; /* Allow the image to scale */
 }
 
 /* Media query for smaller screens */
@@ -72,9 +74,9 @@ h1 {
     margin: 0;
 }
 
-nav {
-    background-color: #343a40;
-    color: #fff;
+.navbar-nav {
+    background-color: #0d74da;
+    
     padding: 10px 0;
 }
 
