@@ -48,7 +48,7 @@ header {
 .header-nav {
     text-align: right;
     margin-top: auto; /* Push the navigation to the bottom */
-    background-color: aqua;
+
 }
 
 .header-img {
@@ -58,14 +58,14 @@ header {
 /* Default logo size */
 .logo {
     max-width: 100%; /* Make sure the logo isnt bigger than container */
-    height: auto; /* Allow the image to scale */
+    height: auto; /* image able to scale */
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-    /* Adjust the logo size as needed for smaller screens */
+    /* Adjust the logo size for smaller screens */
     .logo {
-        max-width: 80px; /* Adjust the maximum width as desired */
+        max-width: 80px; 
     }
 }
 
@@ -75,7 +75,7 @@ h1 {
 }
 
 .navbar-nav {
-    background-color: #0d74da;
+    background-color:#fff;
     
     padding: 10px 0;
 }
@@ -84,13 +84,13 @@ h1 {
     padding: 20px;
 }
 
-/* Optional: Adjust margin/padding for navbar items */
+
 .navbar-nav {
     margin-right: 20px;
 }
 
 .navbar-toggler-container {
-    margin-top: -5px; /* Adjust the value as needed */
+    margin-top: -5px; 
 }
 
 
@@ -98,48 +98,47 @@ h1 {
 
 /* CSS for the footer */
 footer {
-    background-color: #343a40;
+    background-color: black;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
 
 
-/* Style the Facebook link in the footer */
+/* Style the link in the footer */
 footer a {
+    background-color: black;
     color: #fff;
     text-decoration: none;
 }
 
-/* Define the default styles for links */
+
 a {
-    color: #007bff; /* Default link color */
-    font-size: 16px; /* Default font size */
-    text-decoration: none; /* Remove underlines by default */
-    transition: color 0.3s, font-size 0.3s; /* Add smooth transitions */
+
+    font-size: 16px; 
+    text-decoration: none; 
+    transition: color font-size 0.3s; 
 }
 
-/* Define the hover styles for links */
 a:hover {
-    color: #ff5722; /* New link color on hover */
     font-size: 18px; /* Increased font size on hover */
 }
  #reservations {
-            background-image: url('../images/bookings.jpg'); /* Replace 'images/background.jpg' with the path to your background image */
+            background-image: url('../images/bookings.jpg');
             background-size: cover;
             background-repeat: no-repeat;
-            color: #fff; /* Text color on the background image */
+            color: #fff; 
             padding: 50px 0;
         }
 
-        /* Additional styling for the form on the background image */
+        /*styling for the form on the background image */
         #reservations form {
-            background-color: rgba(0, 0, 0, 0.7); /* Background color for the form */
+            background-color: rgba(0, 0, 0, 0.7); /* Background transperent*/
             padding: 20px;
             border-radius: 10px;
         }
 
-        /* Additional styling for larger screens */
+        /* styling for larger screens */
 @media (min-width: 768px) {
     .restaurant-description .row {
         margin-top: 20px;
